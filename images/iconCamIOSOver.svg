@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<g id="Layer_1_1_">
+	<g>
+		<path fill="#BCBEC0" stroke="#99999A" stroke-width="2" d="M40.91,9.087c8.789,8.79,8.785,23.036-0.002,31.823
+			c-8.785,8.785-23.031,8.787-31.82-0.002C0.304,32.124,0.304,17.876,9.089,9.091C17.876,0.304,32.126,0.303,40.91,9.087z"/>
+		<g>
+			<g>
+				<path fill="#BCBEC0" stroke="#FFFFFF" stroke-width="2" d="M18.962,12.619c0,0.955-0.81,1.729-1.81,1.729H2.81
+					c-1,0-1.81-0.774-1.81-1.729V2.916c0-0.955,0.811-1.729,1.81-1.729h14.342c1,0,1.81,0.774,1.81,1.729V12.619z"/>
+				<polyline fill="#BCBEC0" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="
+					18.962,9.152 25.043,11.747 25.043,3.056 18.962,6.001 				"/>
+			</g>
+			<circle fill="#BCBEC0" stroke="#FFFFFF" stroke-width="2" cx="5.933" cy="9.402" r="2.344"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+</g>
+<g>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M35.57,31.936c-0.575,1.275-0.852,1.846-1.592,2.973
+		c-1.033,1.573-2.49,3.531-4.295,3.549c-1.604,0.015-2.018-1.045-4.194-1.031c-2.177,0.011-2.633,1.049-4.237,1.035
+		c-1.806-0.017-3.186-1.786-4.221-3.359c-2.891-4.4-3.193-9.563-1.411-12.308c1.268-1.95,3.266-3.092,5.146-3.092
+		c1.914,0,3.116,1.049,4.7,1.049c1.535,0,2.468-1.05,4.681-1.05c1.673,0,3.444,0.911,4.707,2.484
+		C30.719,24.451,31.391,30.356,35.57,31.936L35.57,31.936z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M28.47,17.943c0.805-1.032,1.415-2.488,1.192-3.977
+		c-1.312,0.09-2.847,0.926-3.744,2.015c-0.814,0.988-1.487,2.454-1.225,3.879C26.126,19.903,27.609,19.048,28.47,17.943
+		L28.47,17.943z"/>
+</g>
+</svg>

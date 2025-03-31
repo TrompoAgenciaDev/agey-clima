@@ -1,0 +1,643 @@
+<?php include 'includes/header.php'; ?>
+
+
+        <div class="wrapper">
+            <header class="pagetitle pagetitle-sm">
+                <div class="container">
+                    <div class="divtable irow">
+                        <div class="divcell">
+                            <i class="fa fa-folder-open-o">
+                            </i>
+                            <h1>
+                                Obras
+                            </h1>
+                            <div class="divider">
+                            </div>
+                            <span class="subtitle">
+                                Algunos de nuestros trabajos
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="content mix-wrap">
+                <div class="container">
+                    <div class="row irow-xs">
+                        <div class="col-md-9 col-sm-8">
+                            <ul class="mix-category">
+                                <li class="active">
+                                    <a class="filter active" data-filter="*" href="#all">
+                                        Todas
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="filter" data-filter=".industrial" href="#industrial">
+                                        Industrial
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="filter" data-filter=".obrapublica" href="#obrapublica">
+                                        Obra Pública
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="filter" data-filter=".inmobiliario" href="#inmobiliario">
+                                        Desarrollos Inmobiliarios
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-4 text-right form-solid">
+                            <select>
+                                <option value="original-order">
+                                    Orden original
+                                </option>
+                                <option value="name">
+                                    Filtar por nombre
+                                </option>
+                                <option value="date">
+                                    Filtar por fecha
+                                </option>
+                                <option value="category">
+                                    Filtar por categoría
+                                </option>
+                                <option value="random">
+                                    Random
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row isotope-wrap portfolio-wrap magnific-wrap margin-wrap">
+
+<!-- comienza obra -->
+                        <div class="col-sm-4 col-xs-6 mix industrial" data-category="obrapublica, industrial" data-date="October 1, 2016" data-name="ASEA BROWN BOVERI (ABB S.A.)">
+                            <figure class="figure slider oneslider">
+                                <ul data-auto="true" data-fx="scroll" data-timeout="5000">
+                                    <li>
+                                        <img alt="" src="images/obras/ch/abb-1.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/abb-2.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/abb-3.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/abb-4.jpg"/>
+                                    </li>
+<li>
+                                        <img alt="" src="images/obras/ch/abb-5.jpg"/>
+                                    </li>
+<li>
+                                        <img alt="" src="images/obras/ch/abb-6.jpg"/>
+                                    </li>
+<li>
+                                        <img alt="" src="images/obras/ch/abb-7.jpg"/>
+                                    </li>
+                                </ul>
+                                <nav class="slider-pagination pagination-light inside right">
+                                </nav>
+                                <div class="mask mask-dark">
+                                    <nav>
+                                        <div class="work-info">
+                                            <h5>
+                                                <a href="#">
+                                                    ASEA BROWN BOVERI (ABB S.A.)
+                                                </a>
+                                            </h5>
+                                            <div class="category">
+                                                Industrial
+                                            </div>
+                                        </div>
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded magnific-gallery" data-gallery="images/obras/abb-1.jpg, images/obras/abb-2.jpg, images/obras/abb-3.jpg, images/obras/abb-4.jpg, images/obras/abb-5.jpg, images/obras/abb-6.jpg, images/obras/abb-7.jpg" href="#" title="ASEA BROWN BOVERI (ABB S.A.)">
+                                            <i class="fa fa-search">
+                                            </i>
+                                        </a>
+
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded" href="#" data-target="#abb-modal" data-toggle="modal">
+                                            <i class="fa fa-file-text">
+                                            </i>
+                                        </a>
+                                    </nav>
+                                </div>
+                            </figure>
+                        </div>
+<!-- fin obra -->                        
+<!-- comienza obra -->
+                        <div class="col-sm-4 col-xs-6 mix obrapublica" data-category="obrapublica" data-date="October 2, 2016" data-name="POLO JUDICIAL AVELLANEDA">
+                            <figure class="figure slider oneslider">
+                                <ul data-auto="true" data-fx="scroll" data-timeout="5000">
+                                    <li>
+                                        <img alt="" src="images/obras/ch/polo-1.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/polo-2.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/polo-3.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/polo-4.jpg"/>
+                                    </li>
+<li>
+                                        <img alt="" src="images/obras/ch/polo-5.jpg"/>
+                                    </li>
+<li>
+                                        <img alt="" src="images/obras/ch/polo-6.jpg"/>
+                                    </li>
+<li>
+                                        <img alt="" src="images/obras/ch/polo-7.jpg"/>
+                                    </li>
+                                </ul>
+                                <nav class="slider-pagination pagination-light inside right">
+                                </nav>
+                                <div class="mask mask-dark">
+                                    <nav>
+                                        <div class="work-info">
+                                            <h5>
+                                                <a href="#">
+                                                    POLO JUDICIAL AVELLANEDA
+                                                </a>
+                                            </h5>
+                                            <div class="category">
+                                                Obra Pública
+                                            </div>
+                                        </div>
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded magnific-gallery" data-gallery="images/obras/polo-1.jpg, images/obras/polo-2.jpg, images/obras/polo-3.jpg, images/obras/polo-4.jpg, images/obras/polo-5.jpg, images/obras/polo-6.jpg, images/obras/polo-7.jpg" href="#" title="POLO JUDICIAL AVELLANEDA">
+                                            <i class="fa fa-search">
+                                            </i>
+                                        </a>
+
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded" href="#" data-target="#polo-modal" data-toggle="modal">
+                                            <i class="fa fa-file-text">
+                                            </i>
+                                        </a>
+                                    </nav>
+                                </div>
+                            </figure>
+                        </div>
+<!-- fin obra -->
+
+<!-- comienza obra -->
+                        <div class="col-sm-4 col-xs-6 mix inmobiliario" data-category="inmobiliario" data-date="October 3, 2016" data-name="Quartier Libertador">
+                            <figure class="figure slider oneslider">
+                                <ul data-auto="true" data-fx="scroll" data-timeout="5000">
+                                    <li>
+                                        <img alt="" src="images/obras/ch/ql-4.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/ql-1.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/ql-2.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/ql-3.jpg"/>
+                                    </li>
+                                </ul>
+                                <nav class="slider-pagination pagination-light inside right">
+                                </nav>
+                                <div class="mask mask-dark">
+                                    <nav>
+                                        <div class="work-info">
+                                            <h5>
+                                                <a href="#">
+                                                    Quartier Libertador
+                                                </a>
+                                            </h5>
+                                            <div class="category">
+                                                Desarrollo Inmobiliario
+                                            </div>
+                                        </div>
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded magnific-gallery" data-gallery="images/obras/ql-4.jpg, images/obras/ql-1.jpg, images/obras/ql-2.jpg, images/obras/ql-3.jpg" href="#" title="Quartier Libertador">
+                                            <i class="fa fa-search">
+                                            </i>
+                                        </a>
+
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded" href="#" data-target="#ql-modal" data-toggle="modal">
+                                            <i class="fa fa-file-text">
+                                            </i>
+                                        </a>
+                                    </nav>
+                                </div>
+                            </figure>
+                        </div>
+<!-- fin obra --> 
+
+<!-- comienza obra -->
+                        <div class="col-sm-4 col-xs-6 mix inmobiliario" data-category="inmobiliario" data-date="October 3, 2016" data-name="TOPACIO - BILLINGHURST PLACE">
+                            <figure class="figure slider oneslider">
+                                <ul data-auto="true" data-fx="scroll" data-timeout="5000">
+                                    <li>
+                                        <img alt="" src="images/obras/ch/topacio-1.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/topacio-2.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/topacio-3.jpg"/>
+                                    </li>
+                                </ul>
+                                <nav class="slider-pagination pagination-light inside right">
+                                </nav>
+                                <div class="mask mask-dark">
+                                    <nav>
+                                        <div class="work-info">
+                                            <h5>
+                                                <a href="#">
+                                                    TOPACIO - BILLINGHURST PLACE
+                                                </a>
+                                            </h5>
+                                            <div class="category">
+                                                Desarrollo Inmobiliario
+                                            </div>
+                                        </div>
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded magnific-gallery" data-gallery="images/obras/topacio-1.jpg, images/obras/topacio-2.jpg, images/obras/topacio-3.jpg" href="#" title="TOPACIO - BILLINGHURST PLACE">
+                                            <i class="fa fa-search">
+                                            </i>
+                                        </a>
+
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded" href="#" data-target="#topacio-modal" data-toggle="modal">
+                                            <i class="fa fa-file-text">
+                                            </i>
+                                        </a>
+                                    </nav>
+                                </div>
+                            </figure>
+                        </div>
+<!-- fin obra --> 
+
+
+<!-- comienza obra -->
+                        <div class="col-sm-4 col-xs-6 mix inmobiliario" data-category="inmobiliario" data-date="October 3, 2016" data-name="Quartier Boulevard">
+                            <figure class="figure slider oneslider">
+                                <ul data-auto="true" data-fx="scroll" data-timeout="5000">
+                                    <li>
+                                        <img alt="" src="images/obras/ch/qb-1.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/qb-2.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/qb-3.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/qb-4.jpg"/>
+                                    </li>
+                                </ul>
+                                <nav class="slider-pagination pagination-light inside right">
+                                </nav>
+                                <div class="mask mask-dark">
+                                    <nav>
+                                        <div class="work-info">
+                                            <h5>
+                                                <a href="#">
+                                                    Quartier Boulevard
+                                                </a>
+                                            </h5>
+                                            <div class="category">
+                                                Desarrollo Inmobiliario
+                                            </div>
+                                        </div>
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded magnific-gallery" data-gallery="images/obras/qb-1.jpg, images/obras/qb-2.jpg, images/obras/qb-3.jpg, images/obras/qb-4.jpg" href="#" title="Quartier Boulevard">
+                                            <i class="fa fa-search">
+                                            </i>
+                                        </a>
+
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded" href="#" data-target="#qb-modal" data-toggle="modal">
+                                            <i class="fa fa-file-text">
+                                            </i>
+                                        </a>
+                                    </nav>
+                                </div>
+                            </figure>
+                        </div>
+<!-- fin obra --> 
+<!-- comienza obra -->
+                        <div class="col-sm-4 col-xs-6 mix inmobiliario" data-category="inmobiliario" data-date="October 3, 2016" data-name="TORRE PADDOCK">
+                            <figure class="figure slider oneslider">
+                                <ul data-auto="true" data-fx="scroll" data-timeout="5000">
+                                    <li>
+                                        <img alt="" src="images/obras/ch/torre-paddock-1.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/torre-paddock-2.jpg"/>
+                                    </li>
+                                    <li>
+                                        <img alt="" src="images/obras/ch/torre-paddock-3.jpg"/>
+                                    </li>
+                                </ul>
+                                <nav class="slider-pagination pagination-light inside right">
+                                </nav>
+                                <div class="mask mask-dark">
+                                    <nav>
+                                        <div class="work-info">
+                                            <h5>
+                                                <a href="#">
+                                                    TORRE PADDOCK
+                                                </a>
+                                            </h5>
+                                            <div class="category">
+                                                Desarrollo Inmobiliario
+                                            </div>
+                                        </div>
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded magnific-gallery" data-gallery="images/obras/torre-paddock-1.jpg, images/obras/torre-paddock-2.jpg, images/obras/torre-paddock-3.jpg" href="#" title="TORRE PADDOCK">
+                                            <i class="fa fa-search">
+                                            </i>
+                                        </a>
+
+                                        <a class="icon icon-inverse icon-size-2 icon-theme icon-rounded" href="#" data-target="#torre-paddock-modal" data-toggle="modal">
+                                            <i class="fa fa-file-text">
+                                            </i>
+                                        </a>
+                                    </nav>
+                                </div>
+                            </figure>
+                        </div>
+<!-- fin obra --> 
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- modals info obra abajo del footer --> 
+        <div class="modal fade" id="abb-modal">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal" type="button">
+                            <i class="fa fa-times">
+                            </i>
+                        </button>
+                        <h6 class="modal-title">
+                            Información de la Obra:
+                        </h6>
+                    </div>
+                    <div class="modal-body text-center">
+                        <div class="modal-body-inside">
+                            <div class="icon icon-color icon-size-4">
+                                <i class="fa fa-file-text-o">
+                                </i>
+                            </div>
+                            <h4>
+                                ASEA BROWN BOVERI (ABB S.A.)
+                            </h4>
+                            <h5>
+                                J.J:Rucci 1051 – Valentín Alsina
+                            </h5>
+                            <div class="heading-divider">
+                            </div>
+                            <ul>
+                                <li>•   Sistema central de calefacción para acondicionamiento de planta de armado de tableros</li>
+                                <li>•   Instalación de 10 equipos calefactores y conductos a la vista.</li>
+                            </ul>
+                            <p>Categoría: Industrial</p>
+                            <a class="btn btn-primary btn-wide" data-dismiss="modal" href="#">
+                                cerrar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="polo-modal">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal" type="button">
+                            <i class="fa fa-times">
+                            </i>
+                        </button>
+                        <h6 class="modal-title">
+                            Información de la Obra:
+                        </h6>
+                    </div>
+                    <div class="modal-body text-center">
+                        <div class="modal-body-inside">
+                            <div class="icon icon-color icon-size-4">
+                                <i class="fa fa-file-text-o">
+                                </i>
+                            </div>
+                            <h4>
+                                POLO JUDIDIAL AVELLANEDA
+                            </h4>
+                            <h5>
+                                Av. Mitre y O´Higgins
+                            </h5>
+                            <h5>
+                                FISCALIAS 1,2 y MINISTERIO PUBLICO DE LA DEFENSA 
+                            </h5>
+                            <div class="heading-divider">
+                            </div>
+                            <ul>
+                                <li>•   Instalación de 5 sistemas roof top por 120TR en total.</li>
+                                <li>•   Conductos a la visata.</li>
+                                <li>•   Estructuras metálicas para los equipos.</li>
+                            </ul>
+                            <p>Categoría: Obra Pública</p>
+                            <a class="btn btn-primary btn-wide" data-dismiss="modal" href="#">
+                                cerrar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="torre-paddock-modal">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal" type="button">
+                            <i class="fa fa-times">
+                            </i>
+                        </button>
+                        <h6 class="modal-title">
+                            Información de la Obra:
+                        </h6>
+                    </div>
+                    <div class="modal-body text-center">
+                        <div class="modal-body-inside">
+                            <div class="icon icon-color icon-size-4">
+                                <i class="fa fa-file-text-o">
+                                </i>
+                            </div>
+                            <h4>
+                                TORRE PADDOCK
+                            </h4>
+                            <h5>
+                                Av. Libertador 3666
+                            </h5>
+                            <div class="heading-divider">
+                            </div>
+                            <ul>
+                                <li>•   Aire Acondicionado central multizona en cada uno de los pisos</li>
+                                <li>•   Ventilación de palier seguro</li>
+                                <li>•   Ventilación de cocheras</li>
+                            </ul>
+                            <a class="btn btn-primary btn-wide" data-dismiss="modal" href="#">
+                                cerrar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="topacio-modal">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal" type="button">
+                            <i class="fa fa-times">
+                            </i>
+                        </button>
+                        <h6 class="modal-title">
+                            Información de la Obra:
+                        </h6>
+                    </div>
+                    <div class="modal-body text-center">
+                        <div class="modal-body-inside">
+                            <div class="icon icon-color icon-size-4">
+                                <i class="fa fa-file-text-o">
+                                </i>
+                            </div>
+                            <h4>
+                                TOPACIO - BILLINGHURST PLACE
+                            </h4>
+                            <h5>
+                                Gorriti 3550. Cap. Fed.
+                            </h5>
+                            <div class="heading-divider">
+                            </div>
+                            <ul>
+                                <li>•   Ventilaciones Cocheras y Sectores Comunes por 42.000 m3/hora</li>
+                                <li>•   Climatización de amenities, SUM y SPA en último piso</li>
+                            </ul>
+                            <a class="btn btn-primary btn-wide" data-dismiss="modal" href="#">
+                                cerrar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="qb-modal">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal" type="button">
+                            <i class="fa fa-times">
+                            </i>
+                        </button>
+                        <h6 class="modal-title">
+                            Información de la Obra:
+                        </h6>
+                    </div>
+                    <div class="modal-body text-center">
+                        <div class="modal-body-inside">
+                            <div class="icon icon-color icon-size-4">
+                                <i class="fa fa-file-text-o">
+                                </i>
+                            </div>
+                            <h4>
+                                Quartier Boulevard
+                            </h4>
+                            <h5>
+                                Juan B Justo 1045. Cap. Fed.
+                            </h5>
+                            <div class="heading-divider">
+                            </div>
+                            <ul>
+                                <li>•   Instalación de 248 Sistemas MULTI SPLIT por 384TR </li>
+                                <li>•   Instalación de 13 sistemas separados para espacios comunes por 55TR, Amenities, SUM y Microcina</li>
+                                <li>•   Ventilaciones Sectores Comunes por 148.290 m3/hora, cocheras, bauleras, compactación y sala de bombas</li>
+                            </ul>
+                            <a class="btn btn-primary btn-wide" data-dismiss="modal" href="#">
+                                cerrar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ql-modal">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal" type="button">
+                            <i class="fa fa-times">
+                            </i>
+                        </button>
+                        <h6 class="modal-title">
+                            Información de la Obra:
+                        </h6>
+                    </div>
+                    <div class="modal-body text-center">
+                        <div class="modal-body-inside">
+                            <div class="icon icon-color icon-size-4">
+                                <i class="fa fa-file-text-o">
+                                </i>
+                            </div>
+                            <h4>
+                                Quartier Libertador
+                            </h4>
+                            <h5>
+                                Edificio de viviendas - AÑO 2008
+                            </h5>
+                            <h5>
+                                Av. Del Libertador 14.200 – Martinez
+                            </h5>
+                            <div class="heading-divider">
+                            </div>
+                            <ul>
+                                <li>•   Instalación de 40 sistemas separados multi split por 65TR</li>
+                                <li>•   Ventilaciones sectores somunes</li>
+                            </ul>
+                            <a class="btn btn-primary btn-wide" data-dismiss="modal" href="#">
+                                cerrar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- modals info obra abajo del footer --> 
+
+        <script src="js/jquery-2.1.4.min.js">
+        </script>
+        <script src="js/bootstrap.min.js">
+        </script>
+        <script src="js/plugins.js">
+        </script>
+        <script src="js/custom.js">
+        </script>
+        <script src="js/ga.js">
+        </script>
+
+        
+        <?php include 'includes/footer.php'; ?>
+
+
+
+        <!-- Whatsapp Button -->
+        <script>
+
+            const wspBtn = document.getElementById('whatsappBtn');
+            wspBtn.addEventListener('click', () => {
+                window.open('https://wa.me/541122444412', '_blank');
+            });
+
+        </script>
+
+</body>
+</html>

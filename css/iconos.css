@@ -1,0 +1,559 @@
+/*  ICONOS  */
+
+
+/* Con Click */
+
+.iconButton {
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 2px;
+	margin-right: 2px;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	/** Chrome & Safari **/
+	-moz-transition: all 0.3s ease-out;
+	/** Firefox **/
+	-o-transition: all 0.3s ease-out;
+	/** Opera **/
+}
+
+.iconButton.inline {
+	display: inline-block;
+}
+
+.iconButtonSmall {
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.iconButtonSmall.inline {
+	display: inline-block;
+}
+
+.iconButton.home {
+	position: absolute;
+	bottom: 70px;
+	left: 50%;
+	margin-left: -25px;
+}
+
+.iconLink {
+	background-image: url(../images/iconLink.svg)
+}
+
+.iconLink:hover {
+	background-image: url(../images/iconLinkOver.svg)
+}
+
+.iconClose {
+	background-image: url(../images/iconClose.svg)
+}
+
+.iconClose:hover {
+	background-image: url(../images/iconCloseOver.svg)
+}
+
+.iconInfo {
+	background-image: url(../images/iconInfo.svg);
+}
+
+.iconInfo:hover {
+	background-image: url(../images/iconInfoOver.svg);
+}
+
+.iconComprar {
+	background-image: url(../images/iconComprar.svg);
+}
+
+.iconComprar:hover {
+	background-image: url(../images/iconComprarOver.svg);
+}
+
+.iconDownload {
+	background-image: url(../images/iconDownload.svg);
+}
+
+.iconDownload:hover {
+	background-image: url(../images/iconDownloadOver.svg);
+}
+
+.iconMenu {
+	background-image: url(../images/iconMenu.svg);
+}
+
+.iconMenu:hover {
+	background-image: url(../images/iconMenuOver.svg);
+}
+
+.iconCalculador {
+	background-image: url(../images/iconCalculador.svg);
+}
+
+.iconCalculador:hover {
+	background-image: url(../images/iconCalculadorOver.svg);
+}
+
+.iconMiniWeb {
+	background-image: url(../images/iconMiniWeb.svg);
+}
+
+.iconMiniWeb:hover {
+	background-image: url(../images/iconMiniWebOver.svg);
+}
+
+.iconCam {
+	background-image: url(../images/iconCam.svg);
+}
+
+.iconCam:hover {
+	background-image: url(../images/iconCamOver.svg);
+}
+
+.iconCamAndroid {
+	background-image: url(../images/iconCamAndroid.svg);
+}
+
+.iconCamAndroid:hover {
+	background-image: url(../images/iconCamAndroidOver.svg);
+}
+
+.iconCamIOS {
+	background-image: url(../images/iconCamIOS.svg);
+}
+
+.iconCamIOS:hover {
+	background-image: url(../images/iconCamIOSOver.svg);
+}
+
+.iconBackWhite {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 12px;
+	margin-right: 10px;
+	background-image: url(../images/arrow_back50.svg);
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.iconBackWhite:hover {
+	background-image: url(../images/arrow_back50Over.svg)
+}
+
+
+/* Sin Click, Iconos de Caracteristicas de Productos */
+
+.iconBlue {
+	width: 70px;
+	height: 70px;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	/** Chrome & Safari **/
+	-moz-transition: all 0.3s ease-out;
+	/** Firefox **/
+	-o-transition: all 0.3s ease-out;
+	/** Opera **/
+}
+
+.iconBlue.inline {
+	display: inline-block;
+}
+
+.iconBlue.marginright {
+	margin-right: 10px
+}
+
+
+/*.iconAutoDiagnostico {background-image:url(../images/azuliconAutoDiagnostico.svg)}*/
+
+.iconAutoDiagnostico {
+	background-image: url(../images/iconProdAutoDiagnostico.png)
+}
+
+
+/*.iconAutoMode {background-image:url(../images/azuliconAutoMode.svg)}*/
+
+.iconAutoMode {
+	background-image: url(../images/iconProdAutoMode.png)
+}
+
+
+/*.iconAutoSwing {background-image:url(../images/azuliconAutoSwing.svg)}*/
+
+.iconAutoSwing {
+	background-image: url(../images/iconProdAutoSwing.png)
+}
+
+.iconAirSweep {
+	background-image: url(../images/iconProdAirSweep.png)
+}
+
+
+/*.iconBacklight {background-image:url(../images/azuliconBacklight.svg)}*/
+
+.iconBacklight {
+	background-image: url(../images/iconProdBacklight.png)
+}
+
+
+/*.iconBajoConsumo {background-image:url(../images/azuliconBajoConsumo.svg);}*/
+
+.iconBajoConsumo {
+	background-image: url(../images/iconProdBajoConsumo.png);
+}
+
+.iconBajoConsumoUno {
+	background-image: url(../images/iconProdBajoConsumoUno.png);
+}
+
+
+/*.iconCalidadAire {background-image:url(../images/azuliconCalidadAire.svg)}*/
+
+.iconCalidadAire {
+	background-image: url(../images/iconProdCalidadAire.png)
+}
+
+
+/*.iconChasisDesliz {background-image:url(../images/azuliconChasisDesliz.svg)}*/
+
+.iconChasisDesliz {
+	background-image: url(../images/iconProdChasisDesliz.png)
+}
+
+
+/*.iconCoberturaHidro {background-image:url(../images/azuliconCoberturaHidro.svg)}*/
+
+.iconCoberturaHidro {
+	background-image: url(../images/iconProdCoberturaHidro.png)
+}
+
+
+/*.iconControlRemoto {background-image:url(../images/azuliconControlRemoto.svg)}*/
+
+.iconControlRemoto {
+	background-image: url(../images/iconProdControlRemoto.png)
+}
+
+.iconControlRemotoUno {
+	background-image: url(../images/iconProdControlRemotoUno.png)
+}
+
+
+/*.iconEco {background-image:url(../images/azuliconEco.svg)}*/
+
+.iconEco {
+	background-image: url(../images/iconProdEco.png)
+}
+
+.iconEcoUno {
+	background-image: url(../images/iconProdEcoUno.png)
+}
+
+
+/*.iconMonofasico {background-image:url(../images/azuliconMonofasico.svg)}*/
+
+.iconMonofasico {
+	background-image: url(../images/iconProdMonofasico.png)
+}
+
+
+/*.iconQuickCooling {background-image:url(../images/azuliconQuickCooling.svg)}*/
+
+.iconQuickCooling {
+	background-image: url(../images/iconProdQuickCooling.png)
+}
+
+
+/*.iconSilencioso {background-image:url(../images/azuliconSilencioso.svg)}*/
+
+.iconSilencioso {
+	background-image: url(../images/iconProdSilencioso.png)
+}
+
+
+/*.iconTimer {background-image:url(../images/azuliconTimer.svg)}*/
+
+.iconTimer {
+	background-image: url(../images/iconProdTimer.png)
+}
+
+
+/*.iconTurbo {background-image:url(../images/azuliconTurbo.svg)}*/
+
+.iconTurbo {
+	background-image: url(../images/iconProdTurbo.png)
+}
+
+.iconAltaEficiencia {
+	background-image: url(../images/iconProdAltaEficiencia.png)
+}
+
+.iconBioFiltro {
+	background-image: url(../images/icoProdBioFiltro.png)
+}
+
+.iconFCBomba {
+	background-image: url(../images/iconProdFCBomba.png)
+}
+
+.iconFCBombaUno {
+	background-image: url(../images/iconProdFCBombaUno.png)
+}
+
+.iconBullet {}
+
+
+/*INVERTER*/
+
+.iconInverterQuickCooling {
+	background-image: url(../images/iconInverterQuickCooling.gif)
+}
+
+.iconInverterAltaEficiencia {
+	background-image: url(../images/iconInverterAltaEficiencia.gif)
+}
+
+.iconInverterSilencioso {
+	background-image: url(../images/iconInverterSilencioso.gif)
+}
+
+.iconInverterHighRange {
+	background-image: url(../images/iconInverterHighRange.gif)
+}
+
+.iconInverterEficienciaA {
+	background-image: url(../images/iconInverterEficienciaA.gif)
+}
+
+.iconInverterModoSleep {
+	background-image: url(../images/iconInverterModoSleep.gif)
+}
+
+.iconInverterModoTurbo {
+	background-image: url(../images/iconInverterModoTurbo.gif)
+}
+
+.iconInverterDeteccionPerdida {
+	background-image: url(../images/iconInverterDeteccionPerdida.gif)
+}
+
+.iconInverterModoAuto {
+	background-image: url(../images/iconInverterModoAuto.gif)
+}
+
+.iconInverterFiltro1 {
+	background-image: url(../images/iconInverterFiltro1.gif)
+}
+
+.iconInverterFiltro2 {
+	background-image: url(../images/iconInverterFiltro2.gif)
+}
+
+.iconInverterFiltro3 {
+	background-image: url(../images/iconInverterFiltro3.gif)
+}
+
+
+/*VITA SMART*/
+
+.iconVitaSmart {
+	background-image: url(../images/iconVitaSmart.png)
+}
+
+.iconVitaDisplayOculto {
+	background-image: url(../images/iconVitaDisplayOculto.png)
+}
+
+.iconVitaEncendido {
+	background-image: url(../images/iconVitaEncendido.png)
+}
+
+.iconVitaFollowMe {
+	background-image: url(../images/iconVitaFollowMe.png)
+}
+
+.iconVitaSleep {
+	background-image: url(../images/iconVitaSleep.png)
+}
+
+.iconVitaPerdida {
+	background-image: url(../images/iconVitaPerdida.png)
+}
+
+.iconCapacidadRefrigeracion {
+	background-image: url(../images/azuliconQuickCooling.svg)
+}
+
+.iconConsumoElectrico {
+	background-image: url(../images/azuliconMonofasico.svg)
+}
+
+.iconEficienciaEnergetica {
+	background-image: url(../images/azuliconBajoConsumo.svg)
+}
+
+.iconConsejosEco {
+	background-image: url(../images/azuliconEco.svg)
+}
+
+.iconConsumo {
+	background-image: url(../images/azuliconConsumo.svg)
+}
+
+.iconDimensiones {
+	background-image: url(../images/azuliconDimensiones.svg)
+}
+
+.iconPeso {
+	background-image: url(../images/azuliconPeso.svg)
+}
+
+.iconCalefaccion {
+	background-image: url(../images/azuliconCalefaccion.svg)
+}
+
+.iconManualTecnico {
+	background-image: url(../images/azuliconmanualtecnico.svg)
+}
+
+.iconConsulta {
+	background-image: url(../images/azuliconConsulta.svg)
+}
+
+.iconIngenieria {
+	background-image: url(../images/azuliconIngnieria.svg)
+}
+
+.iconIndustria {
+	background-image: url(../images/azuliconIndustria.svg)
+}
+
+.iconMkt {
+	background-image: url(../images/azuliconmkt.svg)
+}
+
+.iconSistemas {
+	background-image: url(../images/azuliconSistemas.svg)
+}
+
+.iconAzulClose {
+	background-image: url(../images/azuliconClose.svg)
+}
+
+.iconHumedad {
+	background-image: url(../images/azuliconHumedad.svg)
+}
+
+.iconAislacion {
+	background-image: url(../images/azuliconAislacion.svg)
+}
+
+.iconVentana {
+	background-image: url(../images/azuliconVentana.svg)
+}
+
+.iconCasaFeliz {
+	background-image: url(../images/azuliconCasaFeliz.svg)
+}
+
+.iconCalendario {
+	background-image: url(../images/azulIconCalendario.svg)
+}
+
+.iconAhorroPesos {
+	background-image: url(../images/azuliconAhorroPesos.svg)
+}
+
+.iconListFrioSolo {
+	background-image: url(../images/iconListFrioSolo.svg)
+}
+
+.iconListFrioCalor {
+	background-image: url(../images/iconListFrioCalor.svg)
+}
+
+
+/*Map Icons*/
+
+.agenteMapaContainer {
+	position: relative;
+	width: 100%;
+	padding: 3px;
+	margin-top: 10px;
+	background-color: rgba(160, 160, 160, 0.1);
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+.agenteMapa {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 0px;
+}
+
+.iconMap {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-size: 90% 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border: 1px solid #DDD;
+	border-radius: 20px;
+	margin: 2px;
+}
+
+.iconMap:hover {
+	background-color: white;
+	border: 1px solid #1a6489;
+}
+
+.iconMapLocate {
+	background-image: url(../images/iconMapLocate.svg)
+}
+
+.iconMapLocate:hover {
+	background-image: url(../images/iconMapLocateOver.svg)
+}
+
+.iconMapUnLocate {
+	background-image: url(../images/iconMapUnLocate.svg)
+}
+
+.iconMapUnLocate:hover {
+	background-image: url(../images/iconMapUnLocateOver.svg)
+}
+
+.iconMapZoom {
+	background-image: url(../images/iconMapZoom.svg)
+}
+
+.iconMapZoom:hover {
+	background-image: url(../images/iconMapZoomOver.svg)
+}
+
+.iconFrioSolo {
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+	background-image: url(../images/iconFrioSolo.svg)
+}
+
+.iconFrioCalor {
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+	background-image: url(../images/iconFrioCalor.svg)
+}
