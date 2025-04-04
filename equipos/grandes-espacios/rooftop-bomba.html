@@ -24,13 +24,12 @@
     <body>
         <div class="preloader">
         </div>
-
         <header class="header">
             <nav class="navbar container">
                 <a class="navbar-brand pull-left" href="/">
                     <img alt="AGClima" class="logo-img" src="/images/logo-ageyclima.png"/>
                 </a>
-                <button class="navbar-toggle pull-right" data-target="#navbar" data-toggle="collapse" type="button">
+                <button id="open-menu-mobile" class="navbar-toggle pull-right" data-target="#navbar" data-toggle="collapse" type="button">
                     <i class="fa fa-bars">
                     </i>
                 </button>
@@ -229,6 +228,192 @@
                 </div>
             </nav>
         </header>
+
+        <div class="navbar-mobile" id="navbar-mobile">
+            <div id="close-menu-mobile">
+                <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(5 5)"><path d="m10.5 10.5-10-10z"/><path d="m10.5.5-10 10"/></g></svg>
+            </div>
+            <ul class="nav navbar-nav">
+
+                <li id="equipos" class="dropdown">
+                    <a class="text-item-menu-mobile dropdown-toggle" data-toggle="dropdown" href="../../equipos/index">
+                        Equipos
+                    </a>
+                    <ul class="dropdown-menu sub-menu" id="subemu-mobile-flex">
+                        <li class="flex-col-mobile">
+                            <div class="">
+                                <h6>
+                                    <a href="../../equipos/index-residenciales" class="blanco">
+                                    Residenciales
+                                    </a>
+                                </h6>
+                                <ul>
+                                    <li>
+                                        <a href="../../equipos/residenciales/vita-smart">
+                                            Split Vita Smart
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../equipos/residenciales/inverter">
+                                            Split Inverter
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="">
+                                <h6>
+                                    <a href="../../equipos/index-medianos" class="blanco">
+                                        Medianos Espacios
+                                    </a>
+                                </h6>
+                                <ul>
+                                    <li>
+                                        <a href="../../equipos/medianos-espacios/cassette">
+                                            Cassette
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../equipos/medianos-espacios/consola-nova">
+                                            Split tipo consola Stylo
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../equipos/medianos-espacios/separados-baja-silueta">
+                                            Sistemas Separados Baja Silueta
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../equipos/medianos-espacios/separados-641">
+                                            Sistemas Separados para Conductos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../equipos/medianos-espacios/calefactor-a-gas">
+                                            Calefactor a Gas para Conductos
+                                        </a>
+                                    </li>
+    
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="flex-col-mobile">
+                            <div class="">
+                                <h6>
+                                    <a href="../../equipos/index-grandes" class="blanco">
+                                        Grandes Espacios
+                                    </a>
+                                </h6>
+                                <ul>
+                                    <li>
+                                        <a href="../../equipos/grandes-espacios/iflex">
+                                            Sistema iFlex Plus - DC Inverter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../equipos/grandes-espacios/rooftop-bomba">
+                                            Sistema Rooftop Alta Eficiencia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../equipos/grandes-espacios/rooftop-gas">
+                                            Sistema Rooftop a Gas
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../equipos/grandes-espacios/alta-eficiencia">
+                                            Sistema Separados Comerciales de Alta Eficiencia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../equipos/grandes-espacios/unidades-enfriadoras">
+                                            Unidades Enfriadoras
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../equipos/grandes-espacios/unidades-enfriadoras-scroll">
+                                            Unidades Enfriadoras Condensadas por Aire
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="">
+                                <h6>
+                                    <a href="../../equipos/index-sistemas-control" class="blanco">
+                                        Sistemas de Control
+                                    </a>
+                                </h6>
+                                <ul>
+                                    <li>
+                                        <a href="../../equipos/sistemas-control/moduline">
+                                            Sistema de Control para Zonificación
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li id="herramientas" class="dropdown">
+                    <a class="text-item-menu-mobile dropdown-toggle" data-toggle="dropdown" href="#">
+                        Herramientas
+                    </a>
+                    <ul class="dropdown-menu sub-menu">
+                        <li>
+                            <a href="../../calculador-frigorias">
+                                Calculador de Frigorías
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../../tipologias/tipologias">
+                                Tipologías Constructivas
+                            </a>
+                        </li>
+                        <li id="consejos-utiles">
+                            <a href="../../consejos-utiles">
+                                Consejos Utiles
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li id="obras">
+                    <a href="/obras" class="text-item-menu-mobile">
+                        Obras
+                    </a>
+                </li>
+
+                <li id="empresa" class="dropdown">
+                    <a class="text-item-menu-mobile dropdown-toggle" data-toggle="dropdown" href="../../empresa">
+                        Empresa
+                    </a>
+                    <ul class="dropdown-menu sub-menu">
+                        <li>
+                            <a href="../../empresa">
+                                Quienes Somos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../../empresa#objetivos">
+                                Objetivos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../../empresa#clientes">
+                                Clientes
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li id="contacto">
+                    <a href="/contacto" class="text-item-menu-mobile">
+                        Contacto
+                    </a>
+                </li>
+
+            </ul>
+        </div>
 
         <div class="wrapper">
 
