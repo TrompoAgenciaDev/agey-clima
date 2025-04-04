@@ -14098,9 +14098,10 @@ form .rating-wrap .raty i {
 
 #navbar-mobile .dropdown .dropdown-menu.sub-menu {
 	padding: 20px;
-	font-size: 13px;
+	font-size: 14px;
 	position: static;
 	margin-top: 8px;
+	background-color: #24a3e6;
 }
 
 #navbar-mobile * .text-item-menu-mobile{
