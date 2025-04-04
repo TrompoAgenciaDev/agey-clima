@@ -3688,12 +3688,6 @@ a.icon.icon-color:hover {
 	font-size: 13px
 }
 
-.col-sm-6 .media{
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-}
-
 .media+.btn, .media+.media {
 	margin-top: 20px
 }
@@ -6601,7 +6595,7 @@ a.navbar-brand-rows img {
 .navbar {
 	min-height: 1px;
 	margin-top: 0;
-	margin-bottom: 0 !important;
+	margin-bottom: 0;
 	border-radius: 0;
 	border: 0;
 	padding: 0 30px
@@ -14017,8 +14011,6 @@ form .rating-wrap .raty i {
 	background-position: right top, left top;
 }
 
-
-
 /* Header images*/
 
 .logo-img {
@@ -14043,6 +14035,8 @@ form .rating-wrap .raty i {
 	align-items: center;
 	gap: 16px;
 }
+
+/* Navbar */
 
 @media (min-width: 1200px){
 	.header .container{
